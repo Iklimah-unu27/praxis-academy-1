@@ -11,4 +11,6 @@ Informatika adalah bidang yang cenderung yang menangani bidang seperti hardware 
 Merupakan sebuah kegiatan untuk mengembangan sebuah aplikasi baik dari sisi untuk digunakan untuk apa, desiain, programming, membuat dokumentasi hingga melakukan testing untuk memperbaiki bugs.
 
 
-4. 
+4.  Agile merupakan di dalam bidang software development merupakan tindakan untuk menemukan sebuah requirement / kriteria yang telah ditentukan untuk mengembangkan dan bagaimana seharusnya software tersebut dikembangkan.
+
+5. 
