@@ -15,3 +15,4 @@ Merupakan sebuah kegiatan untuk mengembangan sebuah aplikasi baik dari sisi untu
 
 5. Scrum merupakan sebuah praktek dalam pengembangan software yang kegiatannya dipecah menjadi beberapa bagian  yang disebut "sprint" di mana software tersebut dikembangkan misalnya hanya dalam beberapa minggu dan diserahkan kepada klien untuk direview.
 
+6. Membuat rincian kembali dengan klien hingga benar-benar sesuai sehingga permintaan klien dapat diaplikasikan pada pembuatan software.
