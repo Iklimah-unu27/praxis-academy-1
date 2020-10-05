@@ -1,0 +1,5 @@
+1. line satu
+2. line dua
+3. line tiga
+
+Belajar Python

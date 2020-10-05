@@ -1,0 +1,113 @@
+1. Change directory
+-command: Windowss-MacBook-Pro:~ dimasutomo$ cd google\ drive
+-result: Windowss-MacBook-Pro:google drive dimasutomo$
+
+2. Listing directory
+-command: Windowss-MacBook-Pro:google drive dimasutomo$ ls
+result: Job		Programming
+
+3. open files
+command: Windowss-MacBook-Pro:~ dimasutomo$ open google\ drive/programming/Pratices/python/csv/world-cities.csv
+result: Membuka file "world-cities.csv"
+
+4. copy file to another directory
+command: Windowss-MacBook-Pro:google drive dimasutomo$ cp /Users/macbookpro/google\ drive/programming/Pratices/python/csv/world-cities.csv world-cities-copy.csv
+result: File world-cities.csv dicopy ke directory /Users/macbookpro/google\ drive/ dan nama file menjadi world-cities-copy.csv
+
+5. move file to another diretory
+command: Windowss-MacBook-Pro:~ dimasutomo$ mv /Users/macbookpro/google\ drive/programming/Pratices/python/csv/world-cities.csv /Users/macbookpro/google\ drive/programming/Pratices/python/
+result: file world-cities.csv dipindahkan ke directory /Users/macbookpro/google\ drive/programming/Pratices/python/
+
+6. renaming file to another diretory 
+command: /Users/macbookpro/google\ drive/programming/Pratices/python/csv/world-cities.csv world-cities-copy.csv
+result: File world-cities.csv dipindah ke directory /Users/macbookpro/google\ drive/ dan nama file menjadi world-cities-copy.csv
+
+7. create a new directory
+command: Windowss-MacBook-Pro:Pratices dimasutomo$ mkdir Python/new_dir
+result: membuat directory di directory /Users/macbookpro/google drive/programming/Pratices/Python
+
+8. delete empty directory
+command: Windowss-MacBook-Pro:Pratices dimasutomo$ rmdir python/new_dir
+result: menghapus directory new_dir di dalam directory /Users/macbookpro/google drive/programming/Pratices/Python
+
+9. delete nested directory
+command: Windowss-MacBook-Pro:Pratices dimasutomo$ rm -R python
+result: menghapus directory /Users/macbookpro/google drive/programming/Pratices/Python dan folder yang di dalamnya
+
+10. Execute commands with superuser privileges
+command: Windowss-MacBook-Pro:python dimasutomo$ sudo open world-cities.csv
+result: diminta memasukan password user untuk membuka file world-cities.csv
+
+11. List actively running computer processes
+command: Windowss-MacBook-Pro:~ dimasutomo$ top
+result: menampikan program yang sedang berjalan serta detail hardware seperti di bawah ini
+--
+Processes: 369 total, 3 running, 366 sleeping, 1724 threads                                 15:44:05
+Load Avg: 2.07, 1.99, 1.85  CPU usage: 5.92% user, 2.96% sys, 91.11% idle
+SharedLibs: 183M resident, 48M data, 30M linkedit.
+MemRegions: 108247 total, 2695M resident, 95M private, 793M shared.
+PhysMem: 7922M used (1720M wired), 268M unused.
+VM: 1670G vsize, 1116M framework vsize, 161440(0) swapins, 276470(0) swapouts.
+Networks: packets: 8197230/9246M in, 6430491/817M out. Disks: 2509224/51G read, 1939028/39G written.
+
+12. Exit from view actively running computer processes
+command: q 
+result: kembali ke terminal
+
+13. Clear the Terminal screen of all previous commands
+command: Windowss-MacBook-Pro:~ dimasutomo$ clear
+result: menghapus semua command dan result dari command sebelumnya di terminal
+
+14. Get help for a command
+command: Windowss-MacBook-Pro:~ dimasutomo$ help
+result: menampilkan hasil seperti di bawah ini 
+--
+These shell commands are defined internally.  Type `help' to see this list.
+Type `help name' to find out more about the function `name'.
+Use `info bash' to find out more about the shell in general.
+Use `man -k' or `info' to find out more about commands not in this list.
+
+A star (*) next to a name means that the command is disabled.
+
+ JOB_SPEC [&]                       (( expression ))
+ . filename [arguments]             :
+ [ arg... ]                         [[ expression ]]
+ alias [-p] [name[=value] ... ]     bg [job_spec ...]
+ bind [-lpvsPVS] [-m keymap] [-f fi break [n]
+ builtin [shell-builtin [arg ...]]  caller [EXPR]
+ case WORD in [PATTERN [| PATTERN]. cd [-L|-P] [dir]
+ command [-pVv] command [arg ...]   compgen [-abcdefgjksuv] [-o option
+ complete [-abcdefgjksuv] [-pr] [-o continue [n]
+ declare [-afFirtx] [-p] [name[=val dirs [-clpv] [+N] [-N]
+ disown [-h] [-ar] [jobspec ...]    echo [-neE] [arg ...]
+ enable [-pnds] [-a] [-f filename]  eval [arg ...]
+ exec [-cl] [-a name] file [redirec exit [n]
+ export [-nf] [name[=value] ...] or false
+ fc [-e ename] [-nlr] [first] [last fg [job_spec]
+ for NAME [in WORDS ... ;] do COMMA for (( exp1; exp2; exp3 )); do COM
+ function NAME { COMMANDS ; } or NA getopts optstring name [arg]
+ hash [-lr] [-p pathname] [-dt] [na help [-s] [pattern ...]
+ history [-c] [-d offset] [n] or hi if COMMANDS; then COMMANDS; [ elif
+ jobs [-lnprs] [jobspec ...] or job kill [-s sigspec | -n signum | -si
+ let arg [arg ...]                  local name[=value] ...
+ logout                             popd [+N | -N] [-n]
+ printf [-v var] format [arguments] pushd [dir | +N | -N] [-n]
+ pwd [-LP]                          read [-ers] [-u fd] [-t timeout] [
+ readonly [-af] [name[=value] ...]  return [n]
+ select NAME [in WORDS ... ;] do CO set [--abefhkmnptuvxBCHP] [-o opti
+ shift [n]                          shopt [-pqsu] [-o long-option] opt
+ source filename [arguments]        suspend [-f]
+ test [expr]                        time [-p] PIPELINE
+ times                              trap [-lp] [arg signal_spec ...]
+ true                               type [-afptP] name [name ...]
+ typeset [-afFirtx] [-p] name[=valu ulimit [-SHacdfilmnpqstuvx] [limit
+ umask [-p] [-S] [mode]             unalias [-a] name [name ...]
+ unset [-f] [-v] [name ...]         until COMMANDS; do COMMANDS; done
+ variables - Some variable names an wait [n]
+ while COMMANDS; do COMMANDS; done  { COMMANDS ; }
+
+15. Get description of command
+command: Windowss-MacBook-Pro:~ dimasutomo$ whatis cp
+result: cp(1)                    - copy files
+
+
