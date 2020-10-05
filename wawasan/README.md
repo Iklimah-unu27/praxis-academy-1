@@ -13,4 +13,5 @@ Merupakan sebuah kegiatan untuk mengembangan sebuah aplikasi baik dari sisi untu
 
 4.  Agile merupakan di dalam bidang software development merupakan tindakan untuk menemukan sebuah requirement / kriteria yang telah ditentukan untuk mengembangkan dan bagaimana seharusnya software tersebut dikembangkan.
 
-5. 
+5. Scrum merupakan sebuah praktek dalam pengembangan software yang kegiatannya dipecah menjadi beberapa bagian  yang disebut "sprint" di mana software tersebut dikembangkan misalnya hanya dalam beberapa minggu dan diserahkan kepada klien untuk direview.
+
