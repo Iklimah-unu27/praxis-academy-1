@@ -7,7 +7,8 @@ CS adalah sebuah bidang studi tentang teori, eksperimen, engineering dan berbaga
 
 Informatika adalah bidang yang cenderung yang menangani bidang seperti hardware dan jaringan. 
 
-3.
+3. Software Development
+Merupakan sebuah kegiatan untuk mengembangan sebuah aplikasi baik dari sisi untuk digunakan untuk apa, desiain, programming, membuat dokumentasi hingga melakukan testing untuk memperbaiki bugs.
 
 
 4. 
