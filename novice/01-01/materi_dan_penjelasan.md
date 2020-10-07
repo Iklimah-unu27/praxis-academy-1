@@ -8,11 +8,11 @@
 <h2>2. Komponen dari peranti pengembangan (development tools) dan bisa mencari komponen-komponen untuk suatu bahasa pemrograman tertentu.</h2>
 	<ol>Development tools pada bidang software development merupakan sebuah alat untuk membuat, debug, maintain, atau hal lainnya yang berkaitan dengan program dan aplikasi. Contoh dari tools dalam pengembangan software adalah, git sebagai version control, python sebagai bahasa scripting.</ol>
 <ol>Di dalam bahasa pemrograman, terdapat lima komponen dasar, yaitu:</ol>
-<li>Variabel</li>
-<li>Control structure</li>
-<li>Data structure: Data struktur merupakan sebuah cara untuk bagaimana seorang programmer menyusun data programnya agar bisa berjalan secara efisien.</li> 
-<li>Syntax: Syntax merupakan aturan yang terdapat pada setiap bahasa program. Syntax merupakan aturan untuk struktur kode agar kode yang dikembangkan dapat berjalan.</li>
-<li>Tools: Tools pada bidang software development merupakan sebuah alat untuk membuat, debug, maintain, atau hal lainnya yang berkaitan dengan program dan aplikasi. Contoh dari tools dalam pengembangan software adalah, git sebagai version control, python sebagai bahasa scripting.</li>
+<ol>1. Variabel</ol>
+<ol>2. Control structure</ol>
+<ol>3. Data structure: Data struktur merupakan sebuah cara untuk bagaimana seorang programmer menyusun data programnya agar bisa berjalan secara efisien.</ol> 
+<ol>4. Syntax: Syntax merupakan aturan yang terdapat pada setiap bahasa program. Syntax merupakan aturan untuk struktur kode agar kode yang dikembangkan dapat berjalan.</ol>
+<ol>5. Tools: Tools pada bidang software development merupakan sebuah alat untuk membuat, debug, maintain, atau hal lainnya yang berkaitan dengan program dan aplikasi. Contoh dari tools dalam pengembangan software adalah, git sebagai version control, python sebagai bahasa scripting.</ol>
 
 <h2>3. Keterkaitan antara Python sebagai bahasa pemrograman dengan implementasi Python.</h2>
 	<ol>Python merupakan jenis bahasa pemrograman tingkat tinggi. Python dibuat pada tahun 1980 dan direlease pada tahun 1991 oleh Guido van Rossum dengan filosofi yang menekankan “code readabiilty” atau mudah dibaca. Python merupakan OOP dan biasa dikenal bahasa yang dapat digunakan untuk berbagai tujuan. Saat ini python banyak digunaka oleh pengembang AI, ML, Data Scientist, dan Web developer. Contoh dari Implementasi Python adalah seperti CPython, MicroPython, Cython, Jython, dan Pyjs.</ol>
