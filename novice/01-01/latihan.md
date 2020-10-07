@@ -9,8 +9,13 @@
 5. cari package yang diperlukan di point nomor 2.
 
 <h2>Menginstall & menggunakan pip</h2>
-<ol>pip otomatis terinstall pada Python 2 >=2.7.9 or Python 3 >=3.4.</ol>
 
+<h3>Menginstall pip</h3>
+<ol>pip otomatis terinstall pada Python 2 >=2.7.9 atau Python 3 >=3.4 apabila menginstall Python dari python.org</ol>
+
+
+
+<h3>Menggunakan pip</h3>
 Contoh kasus untuk menggunakan jupyter notebook:
 1. install jupyter-notebook menggunakan perintah: pip install notebook. —screenshot—
 2. untuk menjalankan jupyter notebook ketik perintah jupyter notebook untuk membuka jupyter notebook pada browser secara otomatis. 
