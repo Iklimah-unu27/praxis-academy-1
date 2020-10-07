@@ -4,7 +4,7 @@
 3. Cara menginstall package: 
     masuk ke `command pallete` dengan shortcut keyboard `cmd+shift+p` 
     ketik `package control` 
-    cari dan pilih `Install Package.`
+cari dan pilih `Install Package.`
 4. tunggu ST3 mengambil repo untuk list package
 5. cari package yang diperlukan di point nomor 2.
 
