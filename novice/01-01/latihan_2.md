@@ -15,9 +15,9 @@ pip otomatis terinstall pada Python 2 >=2.7.9 atau Python 3 >=3.4 apabila mengin
 
 <h3>Menggunakan pip</h3>
 Contoh kasus untuk menggunakan jupyter notebook:
-1. install jupyter-notebook menggunakan perintah: pip install notebook. —screenshot—
+1. install jupyter-notebook menggunakan perintah: pip install notebook.
 2. untuk menjalankan jupyter notebook ketik perintah jupyter notebook untuk membuka jupyter notebook pada browser secara otomatis. 
 melihat package yang terinstall menggunakan pip:
 ketik perintah pip list
 menghapus package yang terinstall
-1. ketik perintah pip uninstall —packages—
+3. ketik perintah pip uninstall —packages—
