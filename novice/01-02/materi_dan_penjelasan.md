@@ -8,7 +8,7 @@ Secara built in, di dalam bahasa Python sudah terdapat data structure yang diseb
 Data structure Python built in adalah List, Dictionary, Tuple, dan Set. 
 
 ### 1.1.1.1 List
-Pengertian: List merupakan data structure yang digunakan untuk menyimpan kumpulan data dari tipe yang berbeda. Data yang ada di dalam list disebut dengan Index. Index terdapat dua jenis yaitu *positive index* yang berguna untuk mengakses index dengan urutan index pertama hingga akhir dan *negative index* yang berguna untuk mengakses dari urutan index terakhir ke urutan pertama. 
+Pengertian: List merupakan data structure yang digunakan untuk menyimpan kumpulan data dari value yang berbeda. Data yang ada di dalam list disebut dengan Index. Index terdapat dua jenis yaitu *positive index* yang berguna untuk mengakses index dengan urutan index pertama hingga akhir dan *negative index* yang berguna untuk mengakses dari urutan index terakhir ke urutan pertama. 
 <br />
 Contoh: <br/>
 * catatan: index pertama dimulai dari angka 0, bukan 1<br />
@@ -37,15 +37,25 @@ d. Menampilkan index dari index terakhir ke index awal <br />
 #hasil <br />
 `2` 
 
+d. Menambahkan index dalam list <br />
+`list_saya = [1,2,3,5, 'empat', 6, 'tujuh', 'delapan']` <br />
+`list_saya.append(100)` <br />
+#hasil <br />
+`[1, 2, 3, 5, 'empat', 6, 'tujuh', 'delapan', 100]` 
 
-d. Contoh lebih banyak dapat dilihat di https://www.programiz.com/python-programming/list
+e. Contoh lebih banyak dapat dilihat di https://www.programiz.com/python-programming/list
 
-### 1.1.1.2 Dictionary
+
+### 1.1.1.2 Tuple
+Pengertian: Tuple juga merupakan data structure yang berfungsi menyimpan data seperti list, namun di dalam Tuple, Index tidak dapat diubah sama sekali. 
+
+
+### 1.1.1.3 Dictionary
 Pengertian: Dictonary adalah data structure yang menyimpan data berupa pasangan `key-value`. <br />
 Contoh: <br />
 
 a. Dictionary sederhana <br />
-`warna_dan_angka = {'warna': 'merah', 'angka': 1}`
+`warna_dan_angka = {'warna': 'merah', 'angka': 1}`<br />
 `print (warna_dan_angka['warna'])`<br />
 `print (warna_dan_angka['angka'])`<br />
 #hasil <br />
@@ -53,6 +63,3 @@ a. Dictionary sederhana <br />
 `1` <br />
 
 b. Contoh lebih banyak dapat dilihat di https://www.programiz.com/python-programming/dictionary
-
-### 1.1.1.3 Tuple
-Pengertian: 
