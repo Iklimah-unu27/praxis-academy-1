@@ -46,11 +46,11 @@ Contoh: <br />
 
 a. Dictionary sederhana <br />
 `warna_dan_angka = {'warna': 'merah', 'angka': 1}`
-`print (warna_dan_angka['warna'])`
-`print (warna_dan_angka['angka'])`
+`print (warna_dan_angka['warna'])`<br />
+`print (warna_dan_angka['angka'])`<br />
 #hasil <br />
-`merah`
-`1`
+`merah`<br />
+`1` <br />
 
 b. Contoh lebih banyak dapat dilihat di https://www.programiz.com/python-programming/dictionary
 
