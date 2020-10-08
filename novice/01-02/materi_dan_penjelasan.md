@@ -100,30 +100,30 @@ output: <br />
 # 4. Errors and Exceptions
 
 Contoh: <br />
-a. Contoh Errors
+a. Contoh Errors<br />
 `nama = input('masukkan nama:')`<br/>
 `print f'nama kamu adalah {nama}'`<br />
 output error <br />
 `  File "/Users/macbookpro/Downloads/from_random_import_randint.py", line 2
     print f'nama kamu adalah {nama}'
                                    ^
-SyntaxError: Missing parentheses in call to 'print'. Did you mean print(f'nama kamu adalah {nama}')?` di line terakhir ini menunjukkan jenis error
+SyntaxError: Missing parentheses in call to 'print'. Did you mean print(f'nama kamu adalah {nama}')? #di line terakhir ini menunjukkan jenis error`
 
-b. Contoh Exceptions
+b. Contoh Exceptions<br />
 `string_tidak_bisa_digabung_dengan_int = 'satu' + 1`<br />
 `print (string_tidak_bisa_digabung_dengan_int)`<br />
 output: exceptions <br />
-`Traceback (most recent call last):
-  File "/Users/macbookpro/Downloads/from_random_import_randint.py", line 1, in <module>
-    string_tidak_bisa_digabung_dengan_int = 'satu' + 1
-TypeError: can only concatenate str (not "int") to str` di line ini menunjukkan bahwa string tidak bisa digabung dengan int<br />
+`Traceback (most recent call last):<br />
+  File "/Users/macbookpro/Downloads/from_random_import_randint.py", line 1, in <module><br />
+    string_tidak_bisa_digabung_dengan_int = 'satu' + 1<br />
+TypeError: can only concatenate str (not "int") to str #di line ini menunjukkan bahwa string tidak bisa digabung dengan int`<br />
 
 c. Contoh Handling Exceptions <br />
-`while True:
-    try:
-        harus_angka = int(input("Masukan angka: ")) #di kode ini user diminta memasukkan angka
-        break
-    except ValueError:
+`while True:<br />
+    try:<br />
+        harus_angka = int(input("Masukan angka: ")) #di kode ini user diminta memasukkan angka<br />
+        break<br />
+    except ValueError:<br />
         print("bukan angka, masukan angka") #apabila tidak memasukkan angka, maka hasil tersebut akan muncul sebagai fitur menghandle error dan memberikan user kesempatan untuk input data yang sesuai.` 
 
 
