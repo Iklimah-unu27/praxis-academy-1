@@ -84,6 +84,7 @@ output:<br />
 
 
 # 2. Modules di Python
+Misalnya program A tapi tidak bisa dijalankan langsung dari program A. Jadi, di dalamnya ada file a.1 dan a.2. Supaya program a bisa berjalan, program harus saling berhubungan. Jadi, file a.1 diimpor ke file a.2 agar program A bisa berjalan. 
 
 
 # 3. Input dan Output
