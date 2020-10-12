@@ -18,7 +18,7 @@ Pengertian pada OOP secara umum sendiri sudah terdapat pada bagian tentang OOP d
 Untuk OOP pada Python, sebuah object merupakan pusat dari hanya menampilkan data namun sebagai struktur dari program.
 Object pada Python terdiri dari Class, attribut, dan method.
 
-### 3.1 Class 
+## 4 Class 
 Class merupakan sebuah kesatuan dari data dan function. Membuat sebuah class berarti membuat satu buah tipe object yang memberikan adanya instances dari tipe object yang akan dibuat.
 
 Class digunakan untuk membuat struktur data yang ditentukan oleh pengguna. Function pada class disebut dengan methods, yang mengidentifikasi perilaku dan tindakan yang dapat dilakukan  oleh objek yang dibuat dari class dengan datanya.
@@ -29,7 +29,7 @@ Sementara class merupakan blueprint, sebuah instance adalah sebuah object yang t
 
 Singkatnya, apabila dianalogikan class adalah sebuah form atau questionnaire. Dan apabila class diisi data, maka akan seperti form atau questionnaire yang telah diisi, dan disebut sebagai instances. 
 
-#### 3.1.1 Contoh instantiate object Python: 
+#### 4.1 Contoh instantiate object Python: 
 
 `>>> class Form:`
 
@@ -37,7 +37,7 @@ Singkatnya, apabila dianalogikan class adalah sebuah form atau questionnaire. Da
 
 Dengan syntax tersebut dapat membuat class Form tanpa attributers ataupun methods
 
-### 3.2 Membuat object baru dari class disebut dengan instantiating sebuah object.
+### 4.2 Membuat object baru dari class disebut dengan instantiating sebuah object.
 
 Untuk meng-instantiate object Form baru, bisa menggunakan syntax berikut:
 
@@ -48,7 +48,7 @@ Maka akan mendapatkan object pada `0x10341b518` seperti di bawah. Angka tersebut
 `<__main__.Form object at 0x10341b518>`
 
 
-#### 3.2.1 Class and Instance Attributes:
+#### 4.2.1 Class and Instance Attributes:
 
 Contoh ini adalah membuat object dari class Form yang isi datanya akan berupa nama, usia, dan gender
 
