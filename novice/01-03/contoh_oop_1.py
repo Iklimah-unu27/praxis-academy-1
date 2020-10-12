@@ -1,0 +1,4 @@
+Class Dog:
+    pass
+
+Dog()
