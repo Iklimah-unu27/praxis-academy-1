@@ -32,6 +32,7 @@ Singkatnya, apabila dianalogikan class adalah sebuah form atau questionnaire. Da
 #### Contoh instantiate object Python: 
 
 `>>> class Form:`
+
 `...     pass`
 
 Dengan syntax tersebut dapat membuat class Form tanpa attributers ataupun methods
@@ -51,27 +52,38 @@ Maka akan mendapatkan object pada `0x10341b518` seperti di bawah. Angka tersebut
 
 Contoh ini adalah membuat object dari class Form yang isi datanya akan berupa nama, usia, dan gender
 
-`>>> class Form:
-...     def __init__(self, nama, usia, gender):
-...             self.nama = nama
-...             self.usia = usia
-...             self.gender = gender`
+`>>> class Form:`
+
+`...     def __init__(self, nama, usia, gender):`
+
+`...             self.nama = nama`
+
+`...             self.usia = usia`
+
+`...             self.gender = gender`
 
 Kemudian apabila mengetik syntax seperti di bawah, maka akan muncul error karena belum terdapat value
 
-`>>> Form()
-Traceback (most recent call last):
-  File "<stdin>", line 1, in <module>
-TypeError: __init__() missing 3 required positional arguments: 'nama', 'usia', and 'gender'`
+`>>> Form()`
+
+`Traceback (most recent call last):`
+
+  `File "<stdin>", line 1, in <module>`
+
+`TypeError: __init__() missing 3 required positional arguments: 'nama', 'usia', and 'gender'`
 
 Untuk mengatasi hal tersebut, maka caranya adalah memberikan value untuk  'nama', 'usia', dan 'gender’. 
 
 `>>> dimas = Form('dimas', 99, 'laki-laki')`
+
 `>>> utami = Form('utami', 100, 'perempuan')`
  
 Setelah membuat Form instances, maka kita dapat mengakses instance menggunakan dot notation:
 
-`>>> dimas.usia
-99
->>> utami.gender
-'perempuan'`
+`>>> dimas.usia`
+
+`99`
+
+`>>> utami.gender`
+
+`'perempuan'`
