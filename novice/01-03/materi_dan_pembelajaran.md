@@ -33,7 +33,7 @@ Singkatnya, apabila dianalogikan class adalah sebuah form atau questionnaire. Da
 
 `>>> class Form:`
 
-`...     pass`
+>`...     pass`
 
 Dengan syntax tersebut dapat membuat class Form tanpa attributers ataupun methods
 
@@ -54,13 +54,13 @@ Contoh ini adalah membuat object dari class Form yang isi datanya akan berupa na
 
 `>>> class Form:`
 
-`...     def __init__(self, nama, usia, gender):`
+>`...     def __init__(self, nama, usia, gender):`
 
-`...             self.nama = nama`
+>>`...             self.nama = nama`
 
-`...             self.usia = usia`
+>>`...             self.usia = usia`
 
-`...             self.gender = gender`
+>>`...             self.gender = gender`
 
 Kemudian apabila mengetik syntax seperti di bawah, maka akan muncul error karena belum terdapat value
 
@@ -77,7 +77,7 @@ Untuk mengatasi hal tersebut, maka caranya adalah memberikan value untuk  'nama'
 `>>> dimas = Form('dimas', 99, 'laki-laki')`
 
 `>>> utami = Form('utami', 100, 'perempuan')`
- 
+
 Setelah membuat Form instances, maka kita dapat mengakses instance menggunakan dot notation:
 
 `>>> dimas.usia`
@@ -87,3 +87,11 @@ Setelah membuat Form instances, maka kita dapat mengakses instance menggunakan d
 `>>> utami.gender`
 
 `'perempuan'`
+
+## 5. Python standard library 1 dan Python standard library 2.
+
+Python standard library berugna untuk membuat sebuah modules berjalan pada kode Python, Python standard library sudah terinstall bersamaan dengan Python secara default.
+
+Contoh: 
+### 5.1  
+
