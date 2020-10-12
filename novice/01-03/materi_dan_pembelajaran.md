@@ -1,4 +1,4 @@
-## OOP: 
+## 1. OOP: 
 Object oriented programming adalah salah satu paradigma dalam bahasa pemrograman. 
 
 Agar sebuah program bisa berjalan menggunakan paradigma OOP, maka di dalam program tersebut biasanya terdapat sebuah class. Di dalam class terdapat attribut dan method.
@@ -7,18 +7,18 @@ Sebagai contoh, sebuah class berisi tentang binatang, di dalam class binatang te
 
 Jadi, di dalam class tersebut terdapat object dari binatang yang berisi binatang dan bagaimana binatang tersebut melakukan sesuatu.  
 
-## CRC Card: 
+## 2. CRC Card: 
 Class-responsibility-collaboration atau disingkat menjadi CRC cards adalah alat yang digunakan untuk mendesign software object oriented. Awalnya CRC ditujukan sebagai alat untuk mengajar. CRC cards biasanya dibuat dari index cards yang terdiri dari:
 1. Bagian atas kartu disebut sebagai class
 2. Bagian kiri (di bawah class) sebagai responsibilities dari class. 
 3. Bagian kanan disebut sebagai collaborator yang merupakan class lain yang akan berhubungan dengan responsibilities
 
-## OOP pada Python:
+## 3. OOP pada Python:
 Pengertian pada OOP secara umum sendiri sudah terdapat pada bagian tentang OOP di atas. 
 Untuk OOP pada Python, sebuah object merupakan pusat dari hanya menampilkan data namun sebagai struktur dari program.
 Object pada Python terdiri dari Class, attribut, dan method.
 
-### Class 
+### 3.1 Class 
 Class merupakan sebuah kesatuan dari data dan function. Membuat sebuah class berarti membuat satu buah tipe object yang memberikan adanya instances dari tipe object yang akan dibuat.
 
 Class digunakan untuk membuat struktur data yang ditentukan oleh pengguna. Function pada class disebut dengan methods, yang mengidentifikasi perilaku dan tindakan yang dapat dilakukan  oleh objek yang dibuat dari class dengan datanya.
@@ -29,7 +29,7 @@ Sementara class merupakan blueprint, sebuah instance adalah sebuah object yang t
 
 Singkatnya, apabila dianalogikan class adalah sebuah form atau questionnaire. Dan apabila class diisi data, maka akan seperti form atau questionnaire yang telah diisi, dan disebut sebagai instances. 
 
-#### Contoh instantiate object Python: 
+#### 3.1.1 Contoh instantiate object Python: 
 
 `>>> class Form:`
 
@@ -37,7 +37,7 @@ Singkatnya, apabila dianalogikan class adalah sebuah form atau questionnaire. Da
 
 Dengan syntax tersebut dapat membuat class Form tanpa attributers ataupun methods
 
-### Membuat object baru dari class disebut dengan instantiating sebuah object.
+### 3.2 Membuat object baru dari class disebut dengan instantiating sebuah object.
 
 Untuk meng-instantiate object Form baru, bisa menggunakan syntax berikut:
 
@@ -48,7 +48,7 @@ Maka akan mendapatkan object pada `0x10341b518` seperti di bawah. Angka tersebut
 `<__main__.Form object at 0x10341b518>`
 
 
-#### Class and Instance Attributes:
+#### 3.2.1 Class and Instance Attributes:
 
 Contoh ini adalah membuat object dari class Form yang isi datanya akan berupa nama, usia, dan gender
 
