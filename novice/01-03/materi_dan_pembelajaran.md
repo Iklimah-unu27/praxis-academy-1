@@ -27,7 +27,7 @@ Sebuah class merupakan sebuah blueprint untuk menunjukkan bagaimana sesuatu dapa
 
 Sementara class merupakan blueprint, sebuah instance adalah sebuah object yang terbuat dari sebuah class dan berisi data yang sebenarnya.
 
-Singkatnya, apabila dianalogikan class adalah sebuah form atau questionnaire. Dan apabila class diisi data, maka akan seperti form atau questionnaire yang telah diisi, dan disebut sebagai instances. 
+Singkatnya, apabila dianalogikan class adalah sebuah form atau questionnaire. Dan apabila class diisi data, maka akan seperti form atau questionnaire yang telah diisi.
 
 #### 4.1 Contoh instantiate object Python: 
 
