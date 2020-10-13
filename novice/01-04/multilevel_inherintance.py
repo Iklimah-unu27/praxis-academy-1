@@ -3,7 +3,7 @@
 # In Python 3.x "class Person" is 
 # equivalent to "class Person(object)" 
 
-class Orang(): # Base Class
+class Orang(): # Base Class`
 	def __init__(self, nama): 
 		self.nama = nama 
 	 
