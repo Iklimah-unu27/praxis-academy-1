@@ -73,7 +73,8 @@ Contoh:
 >>`		return self.alamat	` <br />
 
 `Identitas = Lengkap("Lorem", 23, "Ipsum") #menambahkan value`<br />
-`print(Identitas.getName(), Identitas.getAge(), Identitas.getAddress()) #print semua data yang telah ditentukan `
+`print('Orang bernama', Identitas.getName(), 'berusia', Identitas.getAge(), 'saat ini tinggal di', Identitas.getAddress()) #print semua data yang telah ditentukan` 
+
 
 
 

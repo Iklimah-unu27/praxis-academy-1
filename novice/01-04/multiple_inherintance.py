@@ -17,5 +17,5 @@ class TeamLeader(DataPekerja, Job):
 		DataPekerja.__init__(self, name, uid) #memanggil dan mengisi value
 		Job.__init__(self, pay, role)
 		print("Team leader bernama {}, dengan nomor UID {} memiliki gaji sebesar {} /bulan, dengan pengalaman {} sebagai {}.".format(self.name, self.uid,  self.pay, self.exp, self.role))
-		
-TL = TeamLeader('Lorem Ipsum', '#1111', 'Rp 25,000,000', '5 tahun', 'programmer') #menambahkan value untuk class
+
+TL = TeamLeader('Lorem Ipsum', '#1111', 'Rp 25,000,000', '5 tahun', 'python programmer') #menambahkan value untuk class
