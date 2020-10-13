@@ -54,7 +54,7 @@ Contoh ini adalah membuat object dari class Form yang isi datanya akan berupa na
 
 `>>> class Form:`
 
->`...     def __init__(self, nama, usia, gender):`
+`...     def __init__(self, nama, usia, gender):`
 
 >>`...             self.nama = nama`
 
@@ -91,7 +91,4 @@ Setelah membuat Form instances, maka kita dapat mengakses instance menggunakan d
 ## 5. Python standard library 1 dan Python standard library 2.
 
 Python standard library berugna untuk membuat sebuah modules berjalan pada kode Python, Python standard library sudah terinstall bersamaan dengan Python secara default.
-
-Contoh: 
-### 5.1  
 
