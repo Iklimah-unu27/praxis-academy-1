@@ -58,7 +58,7 @@ Contoh:
 >>`		Orang.__init__(self, name) `<br />
 >>`		self.usia = usia `<br />
 
->`	def getAge(self): # Untuk mendapatkan usia`<br />
+>`	def getUsia(self): # Untuk mendapatkan usia`<br />
 >>`		return self.usia `<br />
 
 
@@ -67,11 +67,11 @@ Contoh:
 >>`		Usia.__init__(self, nama, usia) `<br />
 >>`		self.alamat = alamat `<br />
 
->`	def getAddress(self): #Untuk mendapatkan alamat`<br />
+>`	def getAlamat(self): #Untuk mendapatkan alamat`<br />
 >>`		return self.alamat	` <br />
 
 `Identitas = Lengkap("Lorem", 23, "Ipsum") #menambahkan value`<br />
-`print('Orang bernama', Identitas.getName(), 'berusia', Identitas.getAge(), 'saat ini tinggal di', Identitas.getAddress()) #print semua data yang telah ditentukan` 
+`print('Orang bernama', Identitas.getName(), 'berusia', Identitas.getUsia(), 'saat ini tinggal di', Identitas.getAlamat()) #print semua data yang telah ditentukan` 
 
 
 
