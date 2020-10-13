@@ -1,5 +1,5 @@
 # 1. UML 
-UML atau Unfied modeling language merupakan sebuah tool untuk mendesain atau menjelaskan sebuah project terhadap software yang akan dikembangkan.
+UML atau Unified modeling language merupakan sebuah tool untuk mendesain atau menjelaskan sebuah project terhadap software yang akan dikembangkan.
 
 UML selain berguna sebagai blueprint untuk sebuah program, juga berguna sebagai media untuk menjelaskan sebuah project terhadap seseorang yang terlibat di dalam project namun tidak memiliki pengetahuan luas mengenai programming.
 
