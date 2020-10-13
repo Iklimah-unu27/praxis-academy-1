@@ -22,23 +22,23 @@ Multiple inheritance adalah ketika sebuah class mendapatkan turunan dari lebih d
 >> Contoh: 
 
 `class DataPekerja():`<br />              
->`	def __init__(self, name, uid):`
->>`		self.name = name`
->>`		self.uid = uid`
+>`	def __init__(self, name, uid):`<br />  
+>>`		self.name = name`<br />  
+>>`		self.uid = uid`<br />  
   
-`class Job():`                 
->`	def __init__(self, pay, role):`
->>`		self.pay = pay `
->>`		self.role = role`	
+`class Job():`<br />              
+>`	def __init__(self, pay, role):`<br />  
+>>`		self.pay = pay `<br />  
+>>`		self.role = role`	<br />  
 
 Class team leader mendapat turunan dari dua parent class, di kasus ini karena team leader merupakan team member dan worker dan akan menampilkan gaji dan experince
 
-`class TeamLeader(DataPekerja, Job):`         
->`	def __init__(self, name, uid, pay, exp, role): #name, uid didapat dari class Team Member, pay di dapat dari class Worker dan, exp di dapat dari class Team Leader.`
->>`		self.exp = exp`
->>`		DataPekerja.__init__(self, name, uid) #memanggil dan mengisi value`
->>`		Job.__init__(self, pay, role)`
->>`		print("Team leader bernama {}, dengan nomor UID {} memiliki gaji sebesar {} /bulan, dengan pengalaman {} sebagai {}.".format(self.name, self.uid,  self.pay, self.exp, self.role))`
+`class TeamLeader(DataPekerja, Job):`<br />   
+>`	def __init__(self, name, uid, pay, exp, role): #name, uid didapat dari class Team Member, pay di dapat dari class Worker dan, exp di dapat dari class Team Leader.`<br />
+>>`		self.exp = exp`<br/>
+>>`		DataPekerja.__init__(self, name, uid) #memanggil dan mengisi value`<br />
+>>`		Job.__init__(self, pay, role)`<br />
+>>`		print("Team leader bernama {}, dengan nomor UID {} memiliki gaji sebesar {} /bulan, dengan pengalaman {} sebagai {}.".format(self.name, self.uid,  self.pay, self.exp, self.role))`<br />
 
 `TL = TeamLeader('Lorem Ipsum', '#1111', 'Rp 25,000,000', '5 tahun', 'programmer') #menambahkan value untuk class`
 
