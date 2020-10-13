@@ -4,7 +4,7 @@ UML atau Unfied modeling language merupakan sebuah tool untuk mendesain atau men
 UML selain berguna sebagai blueprint untuk sebuah program, juga berguna sebagai media untuk menjelaskan sebuah project terhadap seseorang yang terlibat di dalam project namun tidak memiliki pengetahuan luas mengenai programming.
 
 # 2. Advanced OOP
-> Dalam advanced OOP pada python tedapat 5 Jenis:
+Dalam advanced OOP pada python tedapat 5 Jenis:
 
 1. Multiple inheritance
 2. Multilever inheritance
