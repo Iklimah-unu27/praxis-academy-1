@@ -30,8 +30,6 @@ Contoh:
 >>`		self.pay = pay `<br />  
 >>`		self.role = role`<br />  
 
-Class team leader mendapat turunan dari dua parent class, di kasus ini karena team leader merupakan team member dan worker dan akan menampilkan gaji dan experince
-
 `class TeamLeader(DataPekerja, Job):`<br />   
 >`	def __init__(self, name, uid, pay, exp, role): #name, uid didapat dari class Team Member, pay di dapat dari class Worker dan, exp di dapat dari class Team Leader.`<br />
 >>`		self.exp = exp`<br/>

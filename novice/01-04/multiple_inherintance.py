@@ -10,7 +10,7 @@ class Job():
 		self.pay = pay 
 		self.role = role	
 
-#Class team leader mendapat turunan dari dua parent class, di kasus ini karena team leader merupakan team member dan worker dan akan menampilkan gaji dan experince
+#Class team leader mendapat turunan dari dua parent class
 class TeamLeader(DataPekerja, Job):         
 	def __init__(self, name, uid, pay, exp, role): #name, uid didapat dari class Team Member, pay di dapat dari class Worker dan, exp di dapat dari class Team Leader.
 		self.exp = exp 
