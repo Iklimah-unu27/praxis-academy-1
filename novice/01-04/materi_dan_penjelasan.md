@@ -7,7 +7,7 @@ UML selain berguna sebagai blueprint untuk sebuah program, juga berguna sebagai 
 Dalam advanced OOP pada python tedapat 5 Jenis:
 
 1. Multiple inheritance
-2. Multilever inheritance
+2. Multilevel inheritance
 3. method resolution order (MRO)
 4. Method overriding
 5. Method types: static, dan class
