@@ -41,7 +41,7 @@ Class team leader mendapat turunan dari dua parent class, di kasus ini karena te
 
 `TL = TeamLeader('Lorem Ipsum', '#1111', 'Rp 25,000,000', '5 tahun', 'programmer') #menambahkan value untuk class`
 
-## 2.2 Multilever inheritance
+## 2.2 Multilevel inheritance
 
 Apabila multiple inheritance adalah suatu class turunan (child Class) mendapatkan turunan dari dua class dasar (parent Class), multilever adalah apabila parent class menunrunkan class ke child class secara berurutan seperti ini: Base class (parent Class) > class turunan (child Class) > class turunan (grand child Class).
 
