@@ -1,9 +1,9 @@
 import json
 
-with open('/Users/macbookpro/Google Drive/Programming/bootcamp_python_2020/praxis-academy/novice/01-05/file.json') as hewan_data:
-    hewan = json.load(hewan_data)
+with open('/Users/macbookpro/Google Drive/Programming/bootcamp_python_2020/praxis-academy/novice/01-05/file.json') as data_student:
+    data = json.load(data_student)
 
-nama_hewan = hewan['hewan']
-#jumlah_kaki = hewan['jumlah_kaki']
+murid = data['student']
 
-print(hewan)
+
+print(data)

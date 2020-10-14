@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<root>
+	<student>
+		<id>01</id>
+		<name>Lorem</name>
+		<lastname>Ipsum</lastname>
+	</student>
+	<student>
+		<id>02</id>
+		<name>Ipsum</name>
+		<lastname>Is</lastname>
+	</student>
+</root>

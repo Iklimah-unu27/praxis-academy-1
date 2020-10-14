@@ -1,5 +1,16 @@
-{"hewan":{
-	"nama_hewan": "Kucing",
-	"jumlah_kaki": "lima"
-}
+{
+  "student": [ 
+	
+     { 
+        "id":"01", 
+        "name": "Lorem", 
+        "lastname": "Ipsum" 
+     }, 
+	
+     { 
+        "id":"02", 
+        "name": "Ipsum", 
+        "lastname": "Is" 
+     } 
+  ]   
 }
