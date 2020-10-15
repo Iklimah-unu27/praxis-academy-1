@@ -17,6 +17,8 @@ Untuk membuat sebuah function, berikut ini adalah cara untuk membuatnya:
 
 #### Contoh
 `def favorite_os(nama_os):` 
+
 >`    return 'OS favorit saya adalah {}'.format(nama_os.title())`
+
 `print(favorite_os('linux'))`
 
