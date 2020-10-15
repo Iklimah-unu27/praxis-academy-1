@@ -4,4 +4,4 @@ with open('/Users/macbookpro/Google Drive/Programming/bootcamp_python_2020/praxi
 	data = data_student.read()
 
 student = BeautifulSoup(data, 'xml')
-print(student) 
+print(student)  

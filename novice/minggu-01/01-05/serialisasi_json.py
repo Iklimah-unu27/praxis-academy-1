@@ -5,5 +5,4 @@ with open('/Users/macbookpro/Google Drive/Programming/bootcamp_python_2020/praxi
 
 murid = data['student']
 
-
 print(data)
