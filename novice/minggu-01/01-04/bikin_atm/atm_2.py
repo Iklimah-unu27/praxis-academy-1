@@ -17,7 +17,7 @@ class bank_account(object):
 			exit(0)
 
 	def __str__(self):
-		return "Saldo anda adalah {}".format(self.balance) #using only one substition in the string but providing 2 variables
+		return "Saldo anda adalah {}".format(self.balance)
 
 	def checkbalance(self):
 		return 'Rp' + str(self.balance) #self.balance untuk cek saldo
