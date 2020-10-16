@@ -4,8 +4,7 @@ favorite_os('linux') #isi value
 
 def const_square(angka):
 	square = angka**2
-	print(f'{square}') 	# menampilkan nama favorite_os 
-const_square(5) #isi value
-
+	print(f'{square}') 	
+const_square(5)
 
 
